@@ -1,0 +1,28 @@
+.search-bar {
+    font-family: 'VT323', monospace;
+    color: #222831;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 1rem 0 0 1rem;
+    font-size: 1.5rem;
+    padding-left: .4rem;
+}
+
+.search-button{
+    border-radius: 0 1rem 1rem 0;
+    height: 40%;
+    border: none;
+    border-left: 1px solid #222831;
+}
+
+.search-bar:focus {
+    border: none;
+}
+
+.search-link{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
