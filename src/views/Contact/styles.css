@@ -1,12 +1,10 @@
-.about-container{
-    display: flex;
+.contact-container{
     background: #fff;
     margin: 3rem;
-    flex-flow: column;
     padding: 1rem;
     border-radius: 1rem;
 }
 
-.about-container p{
+.contact-container p{
     font-size: 1.5rem;
 }

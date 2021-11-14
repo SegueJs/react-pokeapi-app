@@ -49,9 +49,33 @@ nav #hamburger {
 @media only screen and (max-width: 800px){
     nav{
         padding-right: 1rem;
+        margin: 0;
     }
     nav ul{
-        display: none;
+        position: fixed;
+        flex-flow: column;
+        left: -60%;
+        height: 150%;
+        background: #333e;
+        border-right: 3px solid #EEEEEE;
+        transition: left .5s;
+        margin-top: 0;
+        z-index: 1;
+        padding: 0;
+        width: 40%;
+
+    }
+
+    nav ul li{
+        border-bottom: 3px solid #fff3;
+        width: 70%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    nav .menu-active{
+        left: 0;
+        transition: left .5s;
     }
     nav #hamburger {
         display: flex;

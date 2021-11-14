@@ -54,7 +54,7 @@ const usePokemonsStore = create((set,get)=>({
     },
     isSearching: false,
     setSearchText: (value)=>{
-        set({searchText: value})
+        set({searchText: value.toLowerCase()})
         console.log(get().searchText)
     },
     searchText: ""

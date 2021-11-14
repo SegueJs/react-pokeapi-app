@@ -19,6 +19,12 @@
 .list-item .info-button{
     width: 100%;
 }
+
+.list-item .info-button button:hover{
+    background: #333;
+    color: #EEEEEE;
+}
+
 .info-button button{
     width: 100%;
     background: #EEEEEE;
@@ -43,12 +49,12 @@
 }
 
 .list-item{
-    transition: transform .5s;
+    transition: transform .3s;
 }
 
 .list-item:hover{
     position: relative;
-    transform: translateY(-1.5rem);
+    transform: translateY(-.7rem);
     z-index: 1;
 }
 

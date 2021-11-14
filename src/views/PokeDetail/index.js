@@ -8,6 +8,9 @@ import ErrorMsg from "../../components/ErrorMsg";
 import usePokemonsStore from "../../zustand/stores/pokemon";
 import shallow from "zustand/shallow";
 import "./styles.css"
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 export default function PokeDetail () {
 
@@ -30,6 +33,7 @@ export default function PokeDetail () {
         <div className="pokemon-detail_container">
             { hasError? <ErrorMsg msg={errorMsg} /> : (
                 <>
+                    <Link to="/" className="back-button" ><FontAwesomeIcon icon={faChevronLeft} /></Link>
                     <div className="pokemon-detail_card">
                         <div className="title">
                             <h3>General Info</h3>
@@ -38,7 +42,6 @@ export default function PokeDetail () {
                         <p> {`Weight: ${pokemonDetail?.weight}`} Kg</p>
                         <p> {`Height: ${pokemonDetail?.height}`} Cm</p>
                     </div>
-
                     <div className="pokemon-detail_card">
                         <div className="title">
                             <h3>Habilities</h3>
