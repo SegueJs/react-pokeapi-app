@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-pokeapi-app/static/css/main.9171a96b.chunk.css",
-    "main.js": "/react-pokeapi-app/static/js/main.c3738061.chunk.js",
-    "main.js.map": "/react-pokeapi-app/static/js/main.c3738061.chunk.js.map",
+    "main.js": "/react-pokeapi-app/static/js/main.0c1686c5.chunk.js",
+    "main.js.map": "/react-pokeapi-app/static/js/main.0c1686c5.chunk.js.map",
     "runtime-main.js": "/react-pokeapi-app/static/js/runtime-main.038c2dd1.js",
     "runtime-main.js.map": "/react-pokeapi-app/static/js/runtime-main.038c2dd1.js.map",
     "static/js/2.952cf62a.chunk.js": "/react-pokeapi-app/static/js/2.952cf62a.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.038c2dd1.js",
     "static/js/2.952cf62a.chunk.js",
     "static/css/main.9171a96b.chunk.css",
-    "static/js/main.c3738061.chunk.js"
+    "static/js/main.0c1686c5.chunk.js"
   ]
 }
