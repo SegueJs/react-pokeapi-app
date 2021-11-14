@@ -11,7 +11,7 @@ export default function PokemonListItem({name, url}) {
         </div>
         <p>{name}</p>
         
-        <Link className="info-button" to={`/pokemon/${getId()}`}>
+        <Link className="info-button" to={`/react-pokeapi-app/pokemon/${getId()}`}>
           <button>
             Ver detalles
           </button>

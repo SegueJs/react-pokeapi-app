@@ -29,13 +29,13 @@ export default function NavBar() {
         </button>
         <ul className={menu}>
           <li>
-            <Link to="/" onClick={setMenu}>Home</Link>
+            <Link to="/react-pokeapi-app" onClick={setMenu}>Home</Link>
           </li>
           <li>
-            <Link to="/about"onClick={setMenu} >About</Link>
+            <Link to="/react-pokeapi-app/about"onClick={setMenu} >About</Link>
           </li>
           <li>
-            <Link to="/Contact" onClick={setMenu}>Contact</Link>
+            <Link to="/react-pokeapi-app/Contact" onClick={setMenu}>Contact</Link>
           </li>
         </ul>
       </nav>

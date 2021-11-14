@@ -33,7 +33,7 @@ export default function PokeDetail () {
         <div className="pokemon-detail_container">
             { hasError? <ErrorMsg msg={errorMsg} /> : (
                 <>
-                    <Link to="/" className="back-button" ><FontAwesomeIcon icon={faChevronLeft} /></Link>
+                    <Link to="/react-pokeapi-app/" className="back-button" ><FontAwesomeIcon icon={faChevronLeft} /></Link>
                     <div className="pokemon-detail_card">
                         <div className="title">
                             <h3>General Info</h3>
