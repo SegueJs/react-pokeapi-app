@@ -9,7 +9,7 @@ export default function NavBar() {
   const [menu, setMenu] = useState("menu");
 
   const handleBtn = () => {
-    if (menu == "menu") {
+    if (menu === "menu") {
       setMenu("menu-active");
     } else {
       setMenu("menu");
