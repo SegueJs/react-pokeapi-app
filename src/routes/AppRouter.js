@@ -26,15 +26,15 @@ const AppRouter = () => {
                 
                 <Routes>
 
-                    <Route path="/" exact element={<Home/>} />
+                    <Route path="/react-pokeapi-app/" exact element={<Home/>} />
 
-                    <Route path="/about" element={<About/>} />
+                    <Route path="/react-pokeapi-app/about" element={<About/>} />
 
-                    <Route path="/contact" element={<Contact/>} />
+                    <Route path="/react-pokeapi-app/contact" element={<Contact/>} />
 
-                    <Route path="*" exact element={<FourOFour/>} />
+                    <Route path="/react-pokeapi-app/*" exact element={<FourOFour/>} />
 
-                    <Route path="/pokemon/:id" element={<PokeDetail />} />
+                    <Route path="/react-pokeapi-app/pokemon/:id" element={<PokeDetail />} />
 
                 </Routes>
 
